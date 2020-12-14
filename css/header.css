@@ -4,6 +4,8 @@
   align-items: center;
   margin-bottom: 30px;
   background-color: pink;
+  margin: 10rem;
+  border-radius: 20%;
 }
 
 .header .header__title {
