@@ -144,7 +144,7 @@
     transform: none;
   }
   to {
-    transform: rotateY(1turn);
+    transform: rotateY(0.2turn) scale(0.5);
   }
 }
 
@@ -179,12 +179,12 @@
 
 .incoming-message .message__bubble {
   border-bottom-left-radius: 0px;
-  background-image: linear-gradient(to right, #7b4397, #dc2430);
+  background-image: linear-gradient(to right, #420ac5, #6b6a70);
 }
 
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
-  background-image: linear-gradient(to left, #00c6ff, #0072ff);
+  background-image: linear-gradient(to left, #00c6ff, #cbdfe9);
 }
 
 @keyframes incomingAnim {
